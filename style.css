@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 3%;
+}
+
+/* First section */
+
+.Beand-Heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.manu {
+    display: flex;
+    margin-left: 20px;
+}
+
+.manu>li {
+    list-style: none;
+}
+
+.manu>li>a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.manu>li>i {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* First section */
+
+/* secound section */
+
+
+
+.top-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-left {
+    width: 582px;
+    height: 270px;
+    margin-top: 285px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.headline {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.top-right {
+    width: 440px;
+    height: 414px;
+}
+
+.top-right img:hover {
+    transition: 1s linear;
+    transform: rotate(360deg);
+}
+
+.button {
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    border-radius: 41px;
+    padding: 10 24 10 24;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.secound {
+    width: 1100px;
+    height: 110px;
+    margin-left: 165px;
+    margin-right: 80px;
+}
+
+.objects {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+/* secound section */
+
+/* third section */
+
+
+.Popular-Collection {
+    text-align: center;
+    color: #3A3A3A;
+    /* width: 262px;
+    height: 70px; */
+    font-size: 28px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    grid-gap: 10px;
+}
+
+.collections img {
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+}
+
+.collection {
+    width: 329px;
+    height: 476px;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.infos h3 {
+    font-size: 28px;
+    margin-bottom: 1px;
+}
+
+.infos h4 {
+    font-size: 24px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+}
+
+.ratings p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+.ratings i {
+    margin-top: 10px;
+    width: 16px;
+    height: 16px;
+    color: #FB8200;
+}
+
+.rest {
+    margin-top: 2px;
+}
+
+.see-more-btn {
+    color: #E02C6D;
+    display: flex;
+    padding: 2% 13%;
+    justify-content: flex-end;
+}
+
+/* third section */
+
+/* Best Deal Offer */
+
+.best-deal {
+    text-align: center;
+    color: #3A3A3A;
+    background-color: aquamarine;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.deal {
+    color: #E02C6D;
+}
+
+.offers {
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center;
+    padding: 20px; */
+    width: 100%;
+}
+
+.offer-image {
+    width: 50%;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.offer-image img {
+    width: 400px;
+    height: 250px;
+}
+
+.offer-details {
+    width: 50%;
+    padding-top: 50px;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+
+.offer-details h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.offer-details h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.offer-details p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+.bottom-line {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.bottom-line p {
+    font-size: 50px;
+    /* margin-right: 20px; */
+}
+
+/* Best Deal Offer */
+
+
+/* footer section */
+
+.footer {
+    background-color: #0A0826;
+    color: #FFFFFF;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-name {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 3px;
+    margin-top: 2px;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 3px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.social-hendels {
+    display: flex;
+    font-size: 25px;
+}
+
+.fa-brands {
+    margin-left: 15px;
+}
+
+/* footer section */
